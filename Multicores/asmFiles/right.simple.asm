@@ -1,0 +1,13 @@
+org 0x0000
+ori $8, $0, 0xaa
+ori $9, $0, 0xbb
+ori $10, $0, 0xcc
+sw $10, 500($0)
+halt
+
+org 0x0200
+ori $9, $0, 0x11
+ori $10, $0, 0x22
+ori $11, $0, 0x33
+
+halt
